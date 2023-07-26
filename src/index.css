@@ -63,4 +63,17 @@ body {
     margin-top: 0;
     font-size: 40px;
   }
+  .App {
+    background: #986daf; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #ffffff,
+      #986daf
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #ffffff,
+      #986daf
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 }
